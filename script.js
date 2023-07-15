@@ -2,18 +2,19 @@
 document.addEventListener("DOMContentLoaded", function() {
     enterInnerText()
     counter()
-  });
+    }
+);
 
-  function enterInnerText(){
+function enterInnerText(){
     // Get the reference to the card div
     let cardDiv = document.getElementById("Card");
-  
+
     // Create a text node
     let textNode = document.getElementById.innerHTML = 1;
-  
+
     // Append the text node to the card div
     cardDiv.innerHTML = textNode;
-  };
+};
 
 function counter(){
   var counterElement = document.getElementById("Card");
@@ -28,9 +29,10 @@ function counter(){
 
     // Update the innerHTML of the element with the new value
     counterElement.innerHTML = newValue;
-  });
+    }
+  );
 }
 
 function newCard(){
-    
+
 };
