@@ -1,5 +1,22 @@
-body{
-    /* background-color: black; */
+#bar{
+    min-width: 100%;
+}
+
+#Add_Button{
+    margin-right: 1rem;
+    margin-left: auto;
+    width: 2rem;
+    height: 2rem;
+    background-color: grey;
+}
+
+#Delete_Button{
+    margin-right: 1rem;
+    padding-top: 1rem;
+    margin-left: auto;
+    width: 2rem;
+    height: 1rem;
+    background-color: grey;
 }
 
 #Cards{
